@@ -1,2 +1,17 @@
 # interview-questions
-interview questions for front-end developers
+interview questions for front-end developers.
+
+### 须知
+1. 以下问题是以往面试实战的总结
+2. 需要自己查询答案、理解、记忆
+3. 建议面试前预留1-2周时间准备
+4. 不准备就去面试会死的很惨
+5. 如果大部分都搞明白了，那面试成功率会在80%以上
+
+### 语法基础题【笔试】
+
+1. 80%以上的面试会有笔试
+2. 大部分笔试都可以使用手机查询答案（面试官不在场）
+3. 笔试时可以只写关键点，不用完整作答
+4. 笔试主要考察语法基础，包括：**作用域、THIS指向、异步执行顺序、原型链**
+5. 看这篇文章就够了：[送你 43 道 JavaScript 面试题](https://juejin.im/post/5d0644976fb9a07ed064b0ca)
