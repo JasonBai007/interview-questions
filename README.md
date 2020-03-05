@@ -61,7 +61,7 @@ interview questions for senior front-end developers.
 
 1. 是否配置过 Nginx 服务器？
 2. Nginx 服务器如何配置反向代理？
-3. 是否熟练掌握 Linux 命令行？（不熟练掌握也没事）
+3. 是否熟练掌握 Linux 命令？（不熟练掌握也没事）
 
 ### 样式布局
 
