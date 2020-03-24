@@ -16,7 +16,7 @@ interview questions for senior front-end developers.
 2. 大部分笔试都可以使用手机查询答案（面试官不在场）
 3. 笔试时可以只写关键点，不必完整作答
 4. 笔试主要考察语法基础，包括：**作用域、THIS 指向、异步执行顺序、原型链**
-5. 看这篇文章就够了：[送你 43 道 JavaScript 面试题](https://juejin.im/post/5d0644976fb9a07ed064b0ca)
+5. 看这篇文章就够了：**[送你 43 道 JavaScript 面试题](https://juejin.im/post/5d0644976fb9a07ed064b0ca)**
 
 ### 浏览器里的事件循环
 
@@ -28,8 +28,10 @@ interview questions for senior front-end developers.
 
 1. VUE 框架原理：[**数据劫持 + 发布订阅模式**](https://www.cnblogs.com/canfoo/p/6891868.html)
 2. 循环列表时为啥要绑定不同的 key？（[**diff 算法**](https://juejin.im/post/5affd01551882542c83301da)）（不一定要掌握）
-3. VUEX 是如何实现单向数据流的？
-4. VUE 在哪些情况下监控不到数据的变化？
+3. VUEX 是如何实现单向数据流的？<br>
+   ![vuex单向数据流](https://vuex.vuejs.org/vuex.png)
+4. VUE 在哪些情况下监控不到数据的变化？[为什么？](https://www.cnblogs.com/youhong/p/12173354.html)<br>
+   1）Vue 不能检测对象属性的添加或删除<br> 2）当你利用索引直接设置一个数组项时，例如：vm.items[indexOfItem] = newValue<br> 3）当你修改数组的长度时，例如：vm.items.length = newLength
 5. 啥时候使用 nextTick
 6. 手写弹框组件（控制弹框显示隐藏的变量，尽量使用 v-model 指令）
 7. 手写递归组件（考到的概率很小，知道个大概就行）
