@@ -44,6 +44,8 @@ interview questions for senior front-end developers.
 4. Promise 的异常处理，then 的第二个回调函数可以处理异常，为啥还需要 catch 方法？<br>
 **catch可以捕获前面then方法执行中的错误,因此，建议总是使用catch方法，而不使用then方法的第二个参数。**
 5. let、const、var 的区别
+6. Object.assign()是深拷贝还是浅拷贝？
+7. 深拷贝最简单的方法是什么？
 
 ### NODE JS
 
@@ -55,10 +57,11 @@ interview questions for senior front-end developers.
 
 1. 200 from cache 和 304 有什么区别？
 2. 常见的 headers 有哪些？
-3. 401 和 403 有什么区别？401 没权限、403 禁止访问
+3. 401 和 403 有什么区别？401 需要身份认证、403 禁止访问
 4. 跨域有哪几种解决方法？JSONP、CORS、nginx 反向代理、本地启动代理、PostMessage
 5. 强缓存和协商缓存
 6. CORS 解决跨域问题后，如何再解决携带 cookie 的问题？[参考这篇](https://www.cnblogs.com/sosohui/p/10273225.html)
+7. JSONP原理
 
 ### 服务器端
 
@@ -68,7 +71,7 @@ interview questions for senior front-end developers.
 
 ### 样式布局
 
-1. 垂直水平居中的方法有哪些？
+1. 垂直水平居中的方法有哪些？[参考](https://juejin.im/post/5c94961df265da60e65b9961)
 2. 是否使用过 flex 布局？有哪些常用属性？
 
 ### 移动端布局
