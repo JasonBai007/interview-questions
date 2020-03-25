@@ -32,16 +32,17 @@ interview questions for senior front-end developers.
    ![vuex单向数据流](https://vuex.vuejs.org/vuex.png)
 4. VUE 在哪些情况下监控不到数据的变化？[为什么？](https://www.cnblogs.com/youhong/p/12173354.html)<br>
    1）Vue 不能检测对象属性的添加或删除<br> 2）当你利用索引直接设置一个数组项时，例如：vm.items[indexOfItem] = newValue<br> 3）当你修改数组的长度时，例如：vm.items.length = newLength
-5. 啥时候使用 nextTick
+5. 啥时候使用 nextTick？（可以在DOM更新完毕之后执行一个回调，确保我们操作的是更新后的DOM）
 6. 手写弹框组件（控制弹框显示隐藏的变量，尽量使用 v-model 指令）
 7. 手写递归组件（考到的概率很小，知道个大概就行）
 
 ### ES6
 
-1. [箭头函数与普通函数的区别](https://juejin.im/post/5cb96b1e6fb9a0687a171e2e)
+1. [箭头函数与普通函数的区别](https://juejin.im/post/5b14d0b4f265da6e60393680#heading-2)
 2. 你使用过哪些 ES6 新特性？
 3. Promise 中的 then 方法是同步的还是异步的？
-4. Promise 的异常处理，then 里面可以处理异常，为啥还需要 catch 方法？
+4. Promise 的异常处理，then 的第二个回调函数可以处理异常，为啥还需要 catch 方法？<br>
+catch可以捕获前面then方法执行中的错误,因此，建议总是使用catch方法，而不使用then方法的第二个参数。
 5. let、const、var 的区别
 
 ### NODE JS
