@@ -42,7 +42,7 @@ interview questions for senior front-end developers.
 2. 你使用过哪些 ES6 新特性？
 3. Promise 中的 then 方法是同步的还是异步的？
 4. Promise 的异常处理，then 的第二个回调函数可以处理异常，为啥还需要 catch 方法？<br>
-catch可以捕获前面then方法执行中的错误,因此，建议总是使用catch方法，而不使用then方法的第二个参数。
+**catch可以捕获前面then方法执行中的错误,因此，建议总是使用catch方法，而不使用then方法的第二个参数。**
 5. let、const、var 的区别
 
 ### NODE JS
