@@ -52,8 +52,7 @@ interview questions for senior front-end developers.
 ### NODE JS
 
 1. 是否用 Node.js 做过项目？
-2. KOA 框架的洋葱模型有什么用？
-3. Node.js 的全局对象是什么？是 global 对象，全局变量都是这个对象的属性
+2. Node.js 的全局对象是什么？(是 global 对象，全局变量都是这个对象的属性)
 
 ### HTTP 通信
 
