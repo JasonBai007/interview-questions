@@ -28,24 +28,26 @@ interview questions for senior front-end developers.
 
 1. VUE 框架原理：[**数据劫持 + 发布订阅模式**](https://www.cnblogs.com/canfoo/p/6891868.html)
 2. 循环列表时为啥要绑定不同的 key？（[**diff 算法**](https://juejin.im/post/5affd01551882542c83301da)）（不一定要掌握）
-3. VUEX 是如何实现单向数据流的？<br>
-   ![vuex单向数据流](https://vuex.vuejs.org/vuex.png)
+3. [VUE 组件之间传值有哪些方法？](https://juejin.im/post/5d267dcdf265da1b957081a3)
 4. VUE 在哪些情况下监控不到数据的变化？[为什么？](https://www.cnblogs.com/youhong/p/12173354.html)<br>
    1）Vue 不能检测对象属性的添加或删除<br> 2）当你利用索引直接设置一个数组项时，例如：vm.items[indexOfItem] = newValue<br> 3）当你修改数组的长度时，例如：vm.items.length = newLength
-5. 啥时候使用 nextTick？（可以在DOM更新完毕之后执行一个回调，确保我们操作的是更新后的DOM）
+5. 啥时候使用 nextTick？（可以在 DOM 更新完毕之后执行一个回调，确保我们操作的是更新后的 DOM）
 6. 手写弹框组件（控制弹框显示隐藏的变量，尽量使用 v-model 指令）
-7. 手写递归组件（考到的概率很小，知道个大概就行）
+7. 如何写递归组件（考到的概率很小，知道个大概就行）
+8. [VUE 面试题大全](https://juejin.im/post/5d59f2a451882549be53b170)
 
 ### ES6
 
-1. [箭头函数与普通函数的区别](https://juejin.im/post/5b14d0b4f265da6e60393680#heading-2)
+1. [箭头函数与普通函数的区别](https://juejin.im/post/5b14d0b4f265da6e60393680)
 2. 你使用过哪些 ES6 新特性？
 3. Promise 中的 then 方法是同步的还是异步的？
 4. Promise 的异常处理，then 的第二个回调函数可以处理异常，为啥还需要 catch 方法？<br>
-**catch可以捕获前面then方法执行中的错误,因此，建议总是使用catch方法，而不使用then方法的第二个参数。**
+   **catch 可以捕获前面 then 方法执行中的错误,因此，建议总是使用 catch 方法，而不使用 then 方法的第二个参数。**
 5. let、const、var 的区别
 6. Object.assign()是深拷贝还是浅拷贝？
-7. 深拷贝最简单的方法是什么？
+7. 深拷贝最简单的方法是什么？（JSON.parse(JSON.stringify(obj))）
+8. 数组去重：[...new Set(arr)]
+9. 数组拍平：arr.flat(Infinity)
 
 ### NODE JS
 
@@ -61,7 +63,7 @@ interview questions for senior front-end developers.
 4. 跨域有哪几种解决方法？JSONP、CORS、nginx 反向代理、本地启动代理、PostMessage
 5. 强缓存和协商缓存
 6. CORS 解决跨域问题后，如何再解决携带 cookie 的问题？[参考这篇](https://www.cnblogs.com/sosohui/p/10273225.html)
-7. JSONP原理
+7. JSONP 原理
 
 ### 服务器端
 
@@ -86,9 +88,6 @@ interview questions for senior front-end developers.
 
 ### 装逼算法
 
-1. 冒泡排序
-2. 快速排序
-3. 数组去重的方法：[...new Set(arr)]
-4. 斐波那契数列
-5. 递归的两个必要条件：自己调用自己+结束条件
-6. 实现深拷贝一个对象
+1. 实现深拷贝一个对象
+2. 递归的两个必要条件：自己调用自己+结束条件
+3. 斐波那契数列
